@@ -1,0 +1,25 @@
+.carousel-indicators button{
+    margin: .5vmax;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    opacity: 0.3;
+    width: 1.5vmax;
+    height: 0.2vmax;
+    margin-bottom: 2vmax;
+    }
+
+    .carousel-inner .carousel-item {
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        position: absolute;
+      }
+      .carousel-inner .carousel-item:first-of-type {
+        position: relative;
+      }
+      .carousel-inner .active {
+        opacity: 1;
+      }
