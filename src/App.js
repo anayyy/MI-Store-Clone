@@ -20,6 +20,8 @@ import NavOptions from './components/NavOptions.js'
 function App() {
   return (
     <Router> 
+      <div className='smallScreens'>PLEASE VIEW THIS ON A LARGER DEVICE.<br/><br/>THANK YOU.</div>
+      <div className='rootDiv'>
       <PreNavbar />
       <Navbar />
 
@@ -55,6 +57,8 @@ function App() {
        <Banner banner={Data.banner}/>
 
        <Footer footer={Data.footer}/>
+
+       </div>
       
 
     </Router>
